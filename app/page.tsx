@@ -19,7 +19,7 @@ export default async function Home() {
             key={project._id}
             className="border-2 border-gray-500 rounded-lg p-2"
           >
-            {project.image && (
+            {project.image ? (
               <Image
                 src={project.image}
                 alt={project.name}
@@ -27,6 +27,10 @@ export default async function Home() {
                 height={300}
                 className="object-cover rounded-lg border border-gray-500"
               />
+            ): (
+              <div className="flex items-center justify-center h-40 bg-gray-200 rounded-lg">
+                No image available
+              </div>
             )}
             <div className="mt-2 font-extrabold bg-gradient-to-r from-blue-500 via-lime-500 to-green-700 bg-clip-text text-transparent">
               <div className="w-max">{project.name}</div>
