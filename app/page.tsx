@@ -5,7 +5,7 @@ import Link from "next/link";
 export default async function Home() {
   const projects = await getProjects();
   return (
-    <div className="max-w-5xl mx-auto">
+    <div className="max-w-5xl mx-auto py-5">
       <h1 className="text-7xl font-extrabold">
         Hello, I am{" "}
         <span className="bg-gradient-to-r from-blue-500 via-lime-500 to-green-700 bg-clip-text text-transparent">
