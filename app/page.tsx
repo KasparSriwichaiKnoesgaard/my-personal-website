@@ -7,11 +7,15 @@ export default async function Home() {
   return (
     <div>
       <h1 className="text-7xl font-extrabold">
-        Hello, I am{" "}
+        Hej, jeg er{" "}
         <span className="bg-gradient-to-r from-blue-500 via-lime-500 to-green-700 bg-clip-text text-transparent">
           Kaspar
         </span>
       </h1>
+
+      <p className="mt-3 text-3xl  text-gray-600">
+        Velkommen til min hjemmeside
+      </p>
 
       <h2 className="mt-14 font-bold text-gray-700 text-3xl">My Projects</h2>
       <div className="mt-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
