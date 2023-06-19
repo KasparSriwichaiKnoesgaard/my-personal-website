@@ -34,7 +34,7 @@ export default async function Home() {
                 className="object-cover rounded-lg border border-gray-500"
               />
             ) : (
-              <div className="flex items-center justify-center h-40 bg-gray-200 rounded-lg">
+              <div className="flex items-center justify-center h-40 md:h-48 lg:h-28 bg-gray-200 rounded-lg">
                 No image available
               </div>
             )}
