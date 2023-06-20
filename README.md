@@ -1,7 +1,12 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# About the repository
+This project is created by following the [guide](https://www.youtube.com/watch?v=OcTPaUfay5I) by [freeCodeCamp](https://www.youtube.com/@freecodecamp).
+
+The purpose of this project is to present my projects and the skills I have acquired through them, as well as to learn Next.js and TypeScript. I had not  originally intended to learn about Content Management System (CMS) with Sanity.io, as well as GROQ (Query Language).
+
+A new feature to this project could be that I will present ideas for new projects and adding videos of the how the other projects functions.
 
 ## Getting Started
-
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 First, run the development server:
 
 ```bash
