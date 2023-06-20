@@ -23,7 +23,7 @@ export default async function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <header className="bg-black p-4 drop-shadow">
-          <nav className="px-5 flex items-center xl:mx-[26%] justify-between text-sm text-white">
+          <nav className="px-2 flex items-center xl:mx-[24%] justify-between text-sm text-white">
             <Link href={"/"} className="text-lg font-bold">
               Hjem
             </Link>
