@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-950 text-white; /* Dark background with white text */
+  }
+  .hover\\:bg-blue-accent:hover {
+    @apply bg-blue-accent; /* Apply blue color on hover */
+  }
+  .focus\\:bg-blue-accent:focus {
+    @apply bg-blue-accent; /* Apply blue color on focus */
+  }
+}
