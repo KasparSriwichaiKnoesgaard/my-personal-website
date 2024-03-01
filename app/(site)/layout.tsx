@@ -22,7 +22,7 @@ export default async function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <header className="bg-black p-4 drop-shadow">
+        <header className="bg-gray-950 p-4 drop-shadow">
           <nav className="px-2 flex items-center xl:mx-[24%] justify-between text-sm text-white">
             <Link href={"/"} className="text-lg font-bold hover:bg-blue-500 hover:rounded-md p-2">
               Hjem
